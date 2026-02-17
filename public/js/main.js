@@ -123,6 +123,7 @@ function renderPost(postId) {
             <div class="post-header">
                 <div class="post-meta">${formatDate(post.createdAt)} • 5 min read</div>
                 <h1>${post.title}</h1>
+                <p class="post-subtitle">${post.excerpt}</p>
             </div>
 
             <img src="${post.imageURL}" alt="${post.title}" class="post-hero-image">

@@ -23,9 +23,16 @@
 
     --border-color: #262626;
 
+    /* Vibrant Story Mode Colors */
+    --post-text: #e2e8f0;
+    /* Soft Blue-Gray-White */
+    --post-heading-gradient: linear-gradient(135deg, #f0f0f0 0%, #a5b4fc 100%);
+    --post-subtitle-color: #94a3b8;
+
     /* Typography */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
 
     /* Spacing */
     --container-max: 1200px;
@@ -105,6 +112,25 @@ h3 {
 p {
     color: var(--text-secondary);
     margin-bottom: var(--spacing-sm);
+    font-weight: 400;
+}
+
+/* Post Header Specifics */
+.post-subtitle {
+    font-size: 1.25rem;
+    color: var(--post-subtitle-color);
+    margin-top: 1.5rem;
+    line-height: 1.6;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 90%;
+}
+
+.post-header h1 {
+    background: var(--post-heading-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1rem;
 }
 
 /* Layout */
@@ -321,21 +347,32 @@ p {
 .post-content h2 {
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
-    font-size: 1.8rem;
-    color: var(--text-primary);
+    font-size: 2.2rem;
+    background: var(--post-heading-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .post-content h3 {
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-sm);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--accent);
+    letter-spacing: -0.01em;
 }
 
 .post-content p {
-    margin-bottom: var(--spacing-sm);
-    line-height: 1.8;
-    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.9;
+    font-size: 1.2rem;
+    color: var(--post-text);
+    text-align: justify;
+    hyphens: auto;
+}
+
+.post-content strong {
+    color: #fff;
+    font-weight: 600;
 }
 
 .post-content ul,
