@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "title": "Welcome to Shadow Blog",
+        "excerpt": "This is your first post on your new premium, static blog. Everything here runs instantly without a database.",
+        "content": "<p>Welcome to the future of blogging. Shadow Blog is designed to be fast, secure, and completely under your control.</p><h3>How it works</h3><p>Instead of a complex database, your posts are stored in a simple file. This means your site can never differ from your local version.</p>",
+        "imageURL": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+        "createdAt": "2026-02-17T12:00:00.000Z",
+        "slug": "welcome-to-shadow-blog"
+    }
+]
