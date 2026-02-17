@@ -11,11 +11,11 @@
     --bg-secondary: #141414;
     --bg-card: #111111;
 
-    --text-primary: #f0f0f0;
-    /* Brighter white */
-    --text-secondary: #a0a0a0;
-    /* Crisp gray */
-    --text-muted: #666666;
+    --text-primary: #f8fafc;
+    /* Premium off-white/slate */
+    --text-secondary: #cbd5e1;
+    /* Soft light gray */
+    --text-muted: #64748b;
 
     --accent: #6366f1;
     /* Modern Indigo/Blurple */
